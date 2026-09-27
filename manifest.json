@@ -1,0 +1,116 @@
+{
+  "chunk_size": 99614720,
+  "quant": "int8",
+  "models": {
+    "gigaam-v3-e2e-rnnt": {
+      "repo": "istupakov/gigaam-v3-onnx",
+      "files": [
+        {
+          "name": "config.json",
+          "size": 135,
+          "sha256": "0641fcf73f4af791c73f05083e38a658ff5dcbee3534a0c61396c10f4b97f0fe",
+          "parts": []
+        },
+        {
+          "name": "v3_e2e_rnnt_decoder.int8.onnx",
+          "size": 1159170,
+          "sha256": "89014e134865615b91e037157e46e389b1271e6072460efc010ea08e61e23146",
+          "parts": []
+        },
+        {
+          "name": "v3_e2e_rnnt_encoder.int8.onnx",
+          "size": 224570477,
+          "sha256": "4e0e076a6076cd110277e529b8ac8f32cd5297f7fbebad5341ae8ddb7d00817b",
+          "parts": [
+            "v3_e2e_rnnt_encoder.int8.onnx.part000",
+            "v3_e2e_rnnt_encoder.int8.onnx.part001",
+            "v3_e2e_rnnt_encoder.int8.onnx.part002"
+          ]
+        },
+        {
+          "name": "v3_e2e_rnnt_joint.int8.onnx",
+          "size": 687791,
+          "sha256": "ade116563dbf66e503b0994efab6b5861412743e52bf31c39fc3fffa3783d5d1",
+          "parts": []
+        },
+        {
+          "name": "v3_e2e_rnnt_vocab.txt",
+          "size": 13354,
+          "sha256": "39abae20e692998290c574e606f11a9edef2902a1995463fcff63d1490cf22b7",
+          "parts": []
+        }
+      ]
+    },
+    "gigaam-v3-rnnt": {
+      "repo": "istupakov/gigaam-v3-onnx",
+      "files": [
+        {
+          "name": "config.json",
+          "size": 135,
+          "sha256": "0641fcf73f4af791c73f05083e38a658ff5dcbee3534a0c61396c10f4b97f0fe",
+          "parts": []
+        },
+        {
+          "name": "v3_rnnt_decoder.int8.onnx",
+          "size": 842048,
+          "sha256": "b9ad90cf00a5619d7fe23b054d307406d8ab37b4b1556857690a65c2aba36c30",
+          "parts": []
+        },
+        {
+          "name": "v3_rnnt_encoder.int8.onnx",
+          "size": 224570473,
+          "sha256": "fee39808a937beb46e870bb45c306e89e587f5b57db85c6c7627adcd30b767b8",
+          "parts": [
+            "v3_rnnt_encoder.int8.onnx.part000",
+            "v3_rnnt_encoder.int8.onnx.part001",
+            "v3_rnnt_encoder.int8.onnx.part002"
+          ]
+        },
+        {
+          "name": "v3_rnnt_joint.int8.onnx",
+          "size": 366698,
+          "sha256": "343e49187edf9afce666b8e37e43b976a67861723d113bdc59e79ec5be796491",
+          "parts": []
+        },
+        {
+          "name": "v3_vocab.txt",
+          "size": 198,
+          "sha256": "a9143c30844d3c0bee3e9e927e4084774eb1b9eeaafc473b2c4521e4911a7c07",
+          "parts": []
+        }
+      ]
+    },
+    "nemo-fastconformer-ru-rnnt": {
+      "repo": "istupakov/stt_ru_fastconformer_hybrid_large_pc_onnx",
+      "files": [
+        {
+          "name": "config.json",
+          "size": 123,
+          "sha256": "942e3177b87f039c172fda0214ae0f6c262589b29cdc6b70c89d8e83ef96ebad",
+          "parts": []
+        },
+        {
+          "name": "decoder_joint-model.int8.onnx",
+          "size": 5364682,
+          "sha256": "b77c14835472aa9fbedbf92800fb08b4a192d39f9fb7fcd954ebd024016b8ee3",
+          "parts": []
+        },
+        {
+          "name": "encoder-model.int8.onnx",
+          "size": 131023030,
+          "sha256": "034b19ba602354ae8405d4a34e80158d7ae702d34cb7737a1c3b563bd36bb576",
+          "parts": [
+            "encoder-model.int8.onnx.part000",
+            "encoder-model.int8.onnx.part001"
+          ]
+        },
+        {
+          "name": "vocab.txt",
+          "size": 14791,
+          "sha256": "17a75016774e067fab164a0e831e32df749a65f7cec03470e78bbe410e84f0e1",
+          "parts": []
+        }
+      ]
+    }
+  }
+}
