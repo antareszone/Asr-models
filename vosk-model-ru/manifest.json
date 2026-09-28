@@ -1,0 +1,34 @@
+{
+  "repo": "alphacep/vosk-model-ru",
+  "chunk_size": 25165824,
+  "files": [
+    {
+      "name": "am-onnx/decoder.int8.onnx",
+      "size": 1326290,
+      "sha256": "d6cb1c78563388bcb7c8a654a768ac2a8518c22542c5b13999b46a08c2557c81",
+      "parts": []
+    },
+    {
+      "name": "am-onnx/encoder.int8.onnx",
+      "size": 70876638,
+      "sha256": "eb6c12fbad810d5bc3e427802e604604c69b5943a91feebc43424dd09d9ec407",
+      "parts": [
+        "am-onnx/encoder.int8.onnx.part000",
+        "am-onnx/encoder.int8.onnx.part001",
+        "am-onnx/encoder.int8.onnx.part002"
+      ]
+    },
+    {
+      "name": "am-onnx/joiner.int8.onnx",
+      "size": 259417,
+      "sha256": "93f2e1d12b78d53e7802f1606488c14bb3d764b15fadf5ef6c022f6ba1fa40f7",
+      "parts": []
+    },
+    {
+      "name": "lang/tokens.txt",
+      "size": 6388,
+      "sha256": "93bbbc0bae6b78c0bbb743d4aa9fded3bb5ff3aac5f0200e3a769a5a05e0fdf6",
+      "parts": []
+    }
+  ]
+}
