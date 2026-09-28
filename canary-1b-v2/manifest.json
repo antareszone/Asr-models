@@ -1,0 +1,74 @@
+{
+  "repo": "istupakov/canary-1b-v2-onnx",
+  "chunk_size": 25165824,
+  "files": [
+    {
+      "name": "config.json",
+      "size": 68,
+      "sha256": "f90ace8e35326dcd47c7330b230644fa0835083ed1e89e2f59aa08ba10d74f54",
+      "parts": []
+    },
+    {
+      "name": "decoder-model.int8.onnx",
+      "size": 170040374,
+      "sha256": "52d83aa7aad41fbbe4f9dfcd341d784735a6eb4c6eb0d3290fc27a0d8ac39abf",
+      "parts": [
+        "decoder-model.int8.onnx.part000",
+        "decoder-model.int8.onnx.part001",
+        "decoder-model.int8.onnx.part002",
+        "decoder-model.int8.onnx.part003",
+        "decoder-model.int8.onnx.part004",
+        "decoder-model.int8.onnx.part005",
+        "decoder-model.int8.onnx.part006"
+      ]
+    },
+    {
+      "name": "encoder-model.int8.onnx",
+      "size": 859078138,
+      "sha256": "6d96e9945898e5ace48f4efecd459ca1df81859730be27b8af6b197639403ee1",
+      "parts": [
+        "encoder-model.int8.onnx.part000",
+        "encoder-model.int8.onnx.part001",
+        "encoder-model.int8.onnx.part002",
+        "encoder-model.int8.onnx.part003",
+        "encoder-model.int8.onnx.part004",
+        "encoder-model.int8.onnx.part005",
+        "encoder-model.int8.onnx.part006",
+        "encoder-model.int8.onnx.part007",
+        "encoder-model.int8.onnx.part008",
+        "encoder-model.int8.onnx.part009",
+        "encoder-model.int8.onnx.part010",
+        "encoder-model.int8.onnx.part011",
+        "encoder-model.int8.onnx.part012",
+        "encoder-model.int8.onnx.part013",
+        "encoder-model.int8.onnx.part014",
+        "encoder-model.int8.onnx.part015",
+        "encoder-model.int8.onnx.part016",
+        "encoder-model.int8.onnx.part017",
+        "encoder-model.int8.onnx.part018",
+        "encoder-model.int8.onnx.part019",
+        "encoder-model.int8.onnx.part020",
+        "encoder-model.int8.onnx.part021",
+        "encoder-model.int8.onnx.part022",
+        "encoder-model.int8.onnx.part023",
+        "encoder-model.int8.onnx.part024",
+        "encoder-model.int8.onnx.part025",
+        "encoder-model.int8.onnx.part026",
+        "encoder-model.int8.onnx.part027",
+        "encoder-model.int8.onnx.part028",
+        "encoder-model.int8.onnx.part029",
+        "encoder-model.int8.onnx.part030",
+        "encoder-model.int8.onnx.part031",
+        "encoder-model.int8.onnx.part032",
+        "encoder-model.int8.onnx.part033",
+        "encoder-model.int8.onnx.part034"
+      ]
+    },
+    {
+      "name": "vocab.txt",
+      "size": 208022,
+      "sha256": "2c9efe6104fd29522ea27ce0e3aef5d37c690af4e5a4232e643e23ca403ffea3",
+      "parts": []
+    }
+  ]
+}
