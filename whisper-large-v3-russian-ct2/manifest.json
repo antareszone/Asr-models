@@ -1,0 +1,53 @@
+{
+  "source": "whisper-large-v3-russian-ct2",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "config.json",
+      "size": 2634,
+      "sha256": "f277d9390e65adc1630b349151eca38aaf7420c41c814271928854edcfd6ffbe",
+      "parts": []
+    },
+    {
+      "name": "model.bin",
+      "size": 1551326177,
+      "sha256": "f6e15bd481c0f633933bffa7a1a3b1e7efa4ad0dba3268a0803c8bf859a605db",
+      "parts": [
+        "model.bin.part000",
+        "model.bin.part001",
+        "model.bin.part002",
+        "model.bin.part003",
+        "model.bin.part004",
+        "model.bin.part005",
+        "model.bin.part006",
+        "model.bin.part007",
+        "model.bin.part008",
+        "model.bin.part009",
+        "model.bin.part010",
+        "model.bin.part011",
+        "model.bin.part012",
+        "model.bin.part013",
+        "model.bin.part014",
+        "model.bin.part015"
+      ]
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 340,
+      "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+      "parts": []
+    },
+    {
+      "name": "vocabulary.json",
+      "size": 1119981,
+      "sha256": "697ee5a65726e46b4d294d1a243d98e1878f5d81caba17891b1c5ebab7a912a9",
+      "parts": []
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 2480617,
+      "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca",
+      "parts": []
+    }
+  ]
+}
