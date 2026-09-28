@@ -1,0 +1,36 @@
+{
+  "repo": "speechbrain/sepformer-whamr",
+  "chunk_size": 25165824,
+  "files": [
+    {
+      "name": "hyperparams.yaml",
+      "size": 1507,
+      "sha256": "ff040161fc168d07e6a13a7a98592b90d39eab311bf55ace91372d9e2575b400",
+      "parts": []
+    },
+    {
+      "name": "encoder.ckpt",
+      "size": 17272,
+      "sha256": "68e6706cd485dd62a7f29ce596e79fb604dfdd352849a546650baa41fe8c34b7",
+      "parts": []
+    },
+    {
+      "name": "decoder.ckpt",
+      "size": 17272,
+      "sha256": "059532c89f67474e98c737e3790d607b60dcdd420767e9259165a2e7370bdd97",
+      "parts": []
+    },
+    {
+      "name": "masknet.ckpt",
+      "size": 113112646,
+      "sha256": "897fc2de3cde8992891a2ee7164cd49877459e65d4867327c3c6b80da94aad01",
+      "parts": [
+        "masknet.ckpt.part000",
+        "masknet.ckpt.part001",
+        "masknet.ckpt.part002",
+        "masknet.ckpt.part003",
+        "masknet.ckpt.part004"
+      ]
+    }
+  ]
+}
