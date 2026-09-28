@@ -1,0 +1,49 @@
+{
+  "repo": "istupakov/gigaam-multilingual-large-ctc-onnx",
+  "chunk_size": 25165824,
+  "files": [
+    {
+      "name": "config.json",
+      "size": 152,
+      "sha256": "d82b4672db0e04db93620ce41081115439ab315abf4f6dbf389a1aa1f0336779",
+      "parts": []
+    },
+    {
+      "name": "multilingual_large_ctc.int8.onnx",
+      "size": 591644782,
+      "sha256": "b2ad9c38fc04197ba758105d33f7404fd13d977958722e0f49e3f3e22521f1c6",
+      "parts": [
+        "multilingual_large_ctc.int8.onnx.part000",
+        "multilingual_large_ctc.int8.onnx.part001",
+        "multilingual_large_ctc.int8.onnx.part002",
+        "multilingual_large_ctc.int8.onnx.part003",
+        "multilingual_large_ctc.int8.onnx.part004",
+        "multilingual_large_ctc.int8.onnx.part005",
+        "multilingual_large_ctc.int8.onnx.part006",
+        "multilingual_large_ctc.int8.onnx.part007",
+        "multilingual_large_ctc.int8.onnx.part008",
+        "multilingual_large_ctc.int8.onnx.part009",
+        "multilingual_large_ctc.int8.onnx.part010",
+        "multilingual_large_ctc.int8.onnx.part011",
+        "multilingual_large_ctc.int8.onnx.part012",
+        "multilingual_large_ctc.int8.onnx.part013",
+        "multilingual_large_ctc.int8.onnx.part014",
+        "multilingual_large_ctc.int8.onnx.part015",
+        "multilingual_large_ctc.int8.onnx.part016",
+        "multilingual_large_ctc.int8.onnx.part017",
+        "multilingual_large_ctc.int8.onnx.part018",
+        "multilingual_large_ctc.int8.onnx.part019",
+        "multilingual_large_ctc.int8.onnx.part020",
+        "multilingual_large_ctc.int8.onnx.part021",
+        "multilingual_large_ctc.int8.onnx.part022",
+        "multilingual_large_ctc.int8.onnx.part023"
+      ]
+    },
+    {
+      "name": "multilingual_vocab.txt",
+      "size": 393,
+      "sha256": "4d130287892e1099fedfb3f93c4b4cf8a263151158801680b28977d1be4133f4",
+      "parts": []
+    }
+  ]
+}
