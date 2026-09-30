@@ -1,0 +1,89 @@
+{
+  "repo": "bond005/whisper-podlodka-turbo",
+  "format": "ctranslate2-int8",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "added_tokens.json",
+      "size": 34648,
+      "sha256": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 2475,
+      "sha256": "fd33ec1033788c916ddd1ff438034b066fba63751c48f683dbf75b1a931f03bb",
+      "parts": []
+    },
+    {
+      "name": "generation_config.json",
+      "size": 3756,
+      "sha256": "c448570c408d1e120ffc25e710fa6de2035457a5514678b6766122d87d8c69d7",
+      "parts": []
+    },
+    {
+      "name": "merges.txt",
+      "size": 493869,
+      "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+      "parts": []
+    },
+    {
+      "name": "model.bin",
+      "size": 820316291,
+      "sha256": "4bdd1e211446e9ebded19cc8c8243db1eaf8ad3968fe33aa5aa621f4e1f608e3",
+      "parts": [
+        "model.bin.part000",
+        "model.bin.part001",
+        "model.bin.part002",
+        "model.bin.part003",
+        "model.bin.part004",
+        "model.bin.part005",
+        "model.bin.part006",
+        "model.bin.part007",
+        "model.bin.part008"
+      ]
+    },
+    {
+      "name": "normalizer.json",
+      "size": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "parts": []
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 340,
+      "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+      "parts": []
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 2186,
+      "sha256": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74",
+      "parts": []
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 2710337,
+      "sha256": "297b13372ac43916285644fb9687add3cc62ee2a1adb60da3dc25cc94c1871fd",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 282843,
+      "sha256": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 1036558,
+      "sha256": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387",
+      "parts": []
+    },
+    {
+      "name": "vocabulary.json",
+      "size": 1119981,
+      "sha256": "697ee5a65726e46b4d294d1a243d98e1878f5d81caba17891b1c5ebab7a912a9",
+      "parts": []
+    }
+  ]
+}
