@@ -1,0 +1,15 @@
+{
+  "architectures": [
+    "BorealisForConditionalGeneration"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_borealis.BorealisConfig",
+    "AutoModelForCausalLM": "modeling_borealis.BorealisForConditionalGeneration"
+  },
+  "downsample_factor": 4,
+  "llm_name": "unsloth/Qwen2.5-0.5B-Instruct",
+  "model_type": "borealis",
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.55.4",
+  "whisper_encoder_name": "openai/whisper-large-v3"
+}

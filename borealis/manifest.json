@@ -1,0 +1,186 @@
+{
+  "repo": "Vikhrmodels/Borealis",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 3315,
+      "sha256": "1f51996e2184f5aa2dd7298ae0a309200b5c127c03d6c84ff9b033fcf8ef2f30",
+      "parts": []
+    },
+    {
+      "name": "added_tokens.json",
+      "size": 667,
+      "sha256": "69330fd1ec303b01b40dca03747883865fa4b155a11a46d426a25bb90a6b4fb0",
+      "parts": []
+    },
+    {
+      "name": "chat_template.jinja",
+      "size": 2507,
+      "sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 448,
+      "sha256": "d2c477dfdb928f70a80ba6589b08431e71f367f4bd20d4c266c268d400d2e84d",
+      "parts": []
+    },
+    {
+      "name": "configuration_borealis.py",
+      "size": 545,
+      "sha256": "87bed82a396262e9817057a27c7728ba90a844cbf5c48b4fc294bfeb5840f9db",
+      "parts": []
+    },
+    {
+      "name": "merges.txt",
+      "size": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "parts": []
+    },
+    {
+      "name": "modeling_borealis.py",
+      "size": 11231,
+      "sha256": "3c40fa779a9a30f4a1ac487de0f8de1afc96e0d7f48fd83f1c714970caf304b1",
+      "parts": []
+    },
+    {
+      "name": "notebook.ipynb",
+      "size": 4740,
+      "sha256": "a184f44fd5e0e46cef24ec567b6896c7bdc632edce9942055aa076d6179701c3",
+      "parts": []
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 357,
+      "sha256": "654cf18d3e163b948ceaf9766da56ce0b52de265d58673cf61c9376f126bd499",
+      "parts": []
+    },
+    {
+      "name": "pytorch_model.bin",
+      "size": 2272601487,
+      "sha256": "babfecb8b4346c60c9b3fe01e38186bfec189db26626c37d169c008b57fba8ff",
+      "parts": [
+        "pytorch_model.bin.part000",
+        "pytorch_model.bin.part001",
+        "pytorch_model.bin.part002",
+        "pytorch_model.bin.part003",
+        "pytorch_model.bin.part004",
+        "pytorch_model.bin.part005",
+        "pytorch_model.bin.part006",
+        "pytorch_model.bin.part007",
+        "pytorch_model.bin.part008",
+        "pytorch_model.bin.part009",
+        "pytorch_model.bin.part010",
+        "pytorch_model.bin.part011",
+        "pytorch_model.bin.part012",
+        "pytorch_model.bin.part013",
+        "pytorch_model.bin.part014",
+        "pytorch_model.bin.part015",
+        "pytorch_model.bin.part016",
+        "pytorch_model.bin.part017",
+        "pytorch_model.bin.part018",
+        "pytorch_model.bin.part019",
+        "pytorch_model.bin.part020",
+        "pytorch_model.bin.part021",
+        "pytorch_model.bin.part022"
+      ]
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 632,
+      "sha256": "61c456931ddd50c2e78139ea64592a9b031abdf0291aadcc8c1e962544981cdd",
+      "parts": []
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 11422284,
+      "sha256": "55c7fad3b807310f01cead0edd8fa225070d199053eb0649e31f58a1caf09aa2",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 4846,
+      "sha256": "ca5ecf32c8c4810d906cb030639b5c75e407216268217f413c69facd9cf2bee3",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/added_tokens.json",
+      "size": 605,
+      "sha256": "58b54bbe36fc752f79a24a271ef66a0a0830054b4dfad94bde757d851968060b",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/config.json",
+      "size": 761,
+      "sha256": "f67584209e8fc026042197c8a50571ae0554849421e106472ef3ec88c2e7369f",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/generation_config.json",
+      "size": 270,
+      "sha256": "409eda00f5fe7d1c29c2c0335823449a4fda6af454b6638b96044fce19186cc5",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/merges.txt",
+      "size": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/special_tokens_map.json",
+      "size": 614,
+      "sha256": "b5acd1507cb3a3539e63369cb4a2b675a599cf13afe62282d371518288967797",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/tokenizer.json",
+      "size": 11421896,
+      "sha256": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/tokenizer_config.json",
+      "size": 7362,
+      "sha256": "0553ada6e92b1a29b4431c72782c6e5e6ab675ef0b20ceb2833cd1074c7fb932",
+      "parts": []
+    },
+    {
+      "name": "qwen2.5-0.5b-config/vocab.json",
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "parts": []
+    },
+    {
+      "name": "whisper-large-v3-config/config.json",
+      "size": 1272,
+      "sha256": "ad0e8d1e46f4d01f7861a21509e5d0f977d6cc1f367a370603c92541d819807b",
+      "parts": []
+    },
+    {
+      "name": "whisper-large-v3-config/generation_config.json",
+      "size": 3903,
+      "sha256": "fbdfa70135de9b1d31553393f14e80aaeb1936ea36576b2ba864055943c09d23",
+      "parts": []
+    },
+    {
+      "name": "whisper-large-v3-config/preprocessor_config.json",
+      "size": 340,
+      "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+      "parts": []
+    },
+    {
+      "name": "whisper-large-v3-config/tokenizer.json",
+      "size": 2480617,
+      "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca",
+      "parts": []
+    }
+  ]
+}
