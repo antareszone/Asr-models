@@ -1,0 +1,36 @@
+{
+  "repo": "anyspeech/zipa-small-noncausal-500k",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 962,
+      "sha256": "2e1a4962eab533d37f6192f4a82fb6ca247d1564cb892df5e3512f7444d7a9ad",
+      "parts": []
+    },
+    {
+      "name": "decoder-epoch-999-avg-1.int8.onnx",
+      "size": 349712,
+      "sha256": "6a7742dfbecefe7d4f2803f9d08bb8df25367147dd163bcf288587b3675101be",
+      "parts": []
+    },
+    {
+      "name": "encoder-epoch-999-avg-1.int8.onnx",
+      "size": 70876329,
+      "sha256": "8a26c7f181d0aa319e5456449c9d06ce65a40e25a4cb344e71e128631453c98c",
+      "parts": []
+    },
+    {
+      "name": "joiner-epoch-999-avg-1.int8.onnx",
+      "size": 66943,
+      "sha256": "bba464b25793c0e7deb256c31717b6ccb97c3b090480367eca87f3f9f78c2ccf",
+      "parts": []
+    },
+    {
+      "name": "tokens.txt",
+      "size": 769,
+      "sha256": "f8e042a0c9130532b22d03ec7cae2f75a23fbec70c450c31a8efb51787b2b8fe",
+      "parts": []
+    }
+  ]
+}
