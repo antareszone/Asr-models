@@ -1,0 +1,95 @@
+{
+  "repo": "neurlang/ipa-whisper-small",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 16968,
+      "sha256": "6302889b89ce270363b3950bb706f1c87f559a2f8bc0f1c0dded89e4836965cf",
+      "parts": []
+    },
+    {
+      "name": "added_tokens.json",
+      "size": 34604,
+      "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 1468,
+      "sha256": "d75be14308514d5b8c68e9dce7b2cae634440e8151160d250abcbbdf3070f316",
+      "parts": []
+    },
+    {
+      "name": "generation_config.json",
+      "size": 3863,
+      "sha256": "2f1e505b4716d34b061600f4f58bfa1cfcb4159eef195c3a8c2d1ad76a09ffed",
+      "parts": []
+    },
+    {
+      "name": "merges.txt",
+      "size": 493869,
+      "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+      "parts": []
+    },
+    {
+      "name": "model.safetensors",
+      "size": 966995080,
+      "sha256": "96b3aaa6e697628961721642388ef26d9459b97ac43a71da8fd03ae21185f3cb",
+      "parts": [
+        "model.safetensors.part000",
+        "model.safetensors.part001",
+        "model.safetensors.part002",
+        "model.safetensors.part003",
+        "model.safetensors.part004",
+        "model.safetensors.part005",
+        "model.safetensors.part006",
+        "model.safetensors.part007",
+        "model.safetensors.part008",
+        "model.safetensors.part009"
+      ]
+    },
+    {
+      "name": "normalizer.json",
+      "size": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "parts": []
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 339,
+      "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+      "parts": []
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 2194,
+      "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691",
+      "parts": []
+    },
+    {
+      "name": "tokenizer.json",
+      "size": 2480466,
+      "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 282683,
+      "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce",
+      "parts": []
+    },
+    {
+      "name": "trainer_state.json",
+      "size": 24530,
+      "sha256": "010839be1595d30278fa7f2644fc1fe3c14f6086648922db470123674e6d6c78",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 1036584,
+      "sha256": "50d6a919f0a0601d56a04eb583c780d18553aa388254ba3158eb6a00f13e2c1a",
+      "parts": []
+    }
+  ]
+}
