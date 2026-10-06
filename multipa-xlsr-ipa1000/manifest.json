@@ -1,0 +1,56 @@
+{
+  "repo": "ctaguchi/wav2vec2-large-xlsr-japlmthufielta-ipa1000-ns",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "config.json",
+      "size": 2287,
+      "sha256": "08cafc7fd586d0a3e8ff4ba4f9e0da491f15118764601947ecba8be8dc0fbabb",
+      "parts": []
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 214,
+      "sha256": "60ca5a31e13f69ee2fbf147504c8676db5f6398fd7a6b12294341dff838edfcf",
+      "parts": []
+    },
+    {
+      "name": "pytorch_model.bin",
+      "size": 1263171053,
+      "sha256": "fd07d6c8d002533730a944c44b8d69d21bba1c08aee71dc3925777baab716d88",
+      "parts": [
+        "pytorch_model.bin.part000",
+        "pytorch_model.bin.part001",
+        "pytorch_model.bin.part002",
+        "pytorch_model.bin.part003",
+        "pytorch_model.bin.part004",
+        "pytorch_model.bin.part005",
+        "pytorch_model.bin.part006",
+        "pytorch_model.bin.part007",
+        "pytorch_model.bin.part008",
+        "pytorch_model.bin.part009",
+        "pytorch_model.bin.part010",
+        "pytorch_model.bin.part011",
+        "pytorch_model.bin.part012"
+      ]
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 96,
+      "sha256": "f17f705b191ddb9aef0b42e40869d325d79b2a1e229e0d51d72698b5d3e4fc90",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 291,
+      "sha256": "a4671231b3e9aba4c8ebeb62d4c9d277675a90f943c2bf398371d01c00d9c1bf",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 4307,
+      "sha256": "5dc71da168ff2e630b8f1973aa98416747d97038ae5d76e0d7b4797dd95886e5",
+      "parts": []
+    }
+  ]
+}
