@@ -1,0 +1,24 @@
+{
+  "repo": "anyspeech/zipa-small-crctc-ns-700k",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 968,
+      "sha256": "251b88c4b275fb863680d70d0e7b663469813e3ade14cc9c265c58cf5fb5a0b8",
+      "parts": []
+    },
+    {
+      "name": "model.int8.onnx",
+      "size": 70677672,
+      "sha256": "c0a74847edb1224f90a5a1d20c501f81d841439e0692f8e32d1fe6bd94beaa77",
+      "parts": []
+    },
+    {
+      "name": "tokens.txt",
+      "size": 769,
+      "sha256": "f8e042a0c9130532b22d03ec7cae2f75a23fbec70c450c31a8efb51787b2b8fe",
+      "parts": []
+    }
+  ]
+}

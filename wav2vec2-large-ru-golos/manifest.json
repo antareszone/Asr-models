@@ -1,0 +1,56 @@
+{
+  "repo": "bond005/wav2vec2-large-ru-golos",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "config.json",
+      "size": 2284,
+      "sha256": "8430205e8c7c812b8f3be0944048a1bf96388e21a778d788dbf2c3a75f654f03",
+      "parts": []
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 214,
+      "sha256": "60ca5a31e13f69ee2fbf147504c8676db5f6398fd7a6b12294341dff838edfcf",
+      "parts": []
+    },
+    {
+      "name": "pytorch_model.bin",
+      "size": 1262053549,
+      "sha256": "db2a4ee1d1cb6d5b72c1128c0baaf5ab9c95b4931031604b2d5c9787ebc2781d",
+      "parts": [
+        "pytorch_model.bin.part000",
+        "pytorch_model.bin.part001",
+        "pytorch_model.bin.part002",
+        "pytorch_model.bin.part003",
+        "pytorch_model.bin.part004",
+        "pytorch_model.bin.part005",
+        "pytorch_model.bin.part006",
+        "pytorch_model.bin.part007",
+        "pytorch_model.bin.part008",
+        "pytorch_model.bin.part009",
+        "pytorch_model.bin.part010",
+        "pytorch_model.bin.part011",
+        "pytorch_model.bin.part012"
+      ]
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 85,
+      "sha256": "bb7068de1150661a10b55f9e4b12a0e77af8bf91f5e45e1b58afaf1d0e17f675",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 138,
+      "sha256": "d773cde8c2ca89ab86892f0b5e670c5ebed4dc72e20ed647f6cb843ad2c0bd26",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 368,
+      "sha256": "905059c963654b47c24e5ab4c96f4220a8f51f88893573c8794f06058546f38d",
+      "parts": []
+    }
+  ]
+}
