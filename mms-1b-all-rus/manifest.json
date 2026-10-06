@@ -1,0 +1,94 @@
+{
+  "repo": "facebook/mms-1b-all",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 14886,
+      "sha256": "3c0f40d0b0087814e046376117fda9b1b10cc6fc395301a96218a6f954dde359",
+      "parts": []
+    },
+    {
+      "name": "adapter.rus.safetensors",
+      "size": 9126492,
+      "sha256": "1038d184ded23c784b7f583a62550b064ed2e5f72c23e7eb3aa8972cf1d177a5",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 2040,
+      "sha256": "ee172ef39a0e40c55403fb811fa0f56c6198c7ed21a2bdf5bd0e72e52c07a41c",
+      "parts": []
+    },
+    {
+      "name": "model.safetensors",
+      "size": 3859521128,
+      "sha256": "0f1d95ce43d27e03d5d8dd56c697c805460f967c793dd2cbec2e8e8012deda98",
+      "parts": [
+        "model.safetensors.part000",
+        "model.safetensors.part001",
+        "model.safetensors.part002",
+        "model.safetensors.part003",
+        "model.safetensors.part004",
+        "model.safetensors.part005",
+        "model.safetensors.part006",
+        "model.safetensors.part007",
+        "model.safetensors.part008",
+        "model.safetensors.part009",
+        "model.safetensors.part010",
+        "model.safetensors.part011",
+        "model.safetensors.part012",
+        "model.safetensors.part013",
+        "model.safetensors.part014",
+        "model.safetensors.part015",
+        "model.safetensors.part016",
+        "model.safetensors.part017",
+        "model.safetensors.part018",
+        "model.safetensors.part019",
+        "model.safetensors.part020",
+        "model.safetensors.part021",
+        "model.safetensors.part022",
+        "model.safetensors.part023",
+        "model.safetensors.part024",
+        "model.safetensors.part025",
+        "model.safetensors.part026",
+        "model.safetensors.part027",
+        "model.safetensors.part028",
+        "model.safetensors.part029",
+        "model.safetensors.part030",
+        "model.safetensors.part031",
+        "model.safetensors.part032",
+        "model.safetensors.part033",
+        "model.safetensors.part034",
+        "model.safetensors.part035",
+        "model.safetensors.part036",
+        "model.safetensors.part037",
+        "model.safetensors.part038"
+      ]
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 254,
+      "sha256": "f724fdad65341e79bd9741888fe4e8ce1bb2e7b44fc8216c28c591afb1e202f4",
+      "parts": []
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 96,
+      "sha256": "9046da57c270c8e74d0f38832b4adce269c9d914ef21d2a0925e7772152dd793",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 397,
+      "sha256": "42a65547cf0654d12263ece7c909c4b0c574b660c78658f806c772cc223bc01b",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 1340148,
+      "sha256": "0375a07a977a599040a7ff333b6974996965cd93754020619518c15db7691f01",
+      "parts": []
+    }
+  ]
+}
