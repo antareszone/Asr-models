@@ -1,0 +1,41 @@
+{
+  "repo": "anyspeech/zipa-large-noncausal-500k",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 962,
+      "sha256": "2e1a4962eab533d37f6192f4a82fb6ca247d1564cb892df5e3512f7444d7a9ad",
+      "parts": []
+    },
+    {
+      "name": "decoder-epoch-999-avg-1.int8.onnx",
+      "size": 1219599,
+      "sha256": "26d58243edbf71d1a0065fad70d6680a535ce8a775a4a5a0586ac6e9b0f43659",
+      "parts": []
+    },
+    {
+      "name": "encoder-epoch-999-avg-1.int8.onnx",
+      "size": 310854645,
+      "sha256": "e62f1e78f2259f30cb30bd0aa5265740d42bb21fe0f54166669904aca3e4cbfb",
+      "parts": [
+        "encoder-epoch-999-avg-1.int8.onnx.part000",
+        "encoder-epoch-999-avg-1.int8.onnx.part001",
+        "encoder-epoch-999-avg-1.int8.onnx.part002",
+        "encoder-epoch-999-avg-1.int8.onnx.part003"
+      ]
+    },
+    {
+      "name": "joiner-epoch-999-avg-1.int8.onnx",
+      "size": 131968,
+      "sha256": "2aaa50e4969110de4a34a62b15a4957a04126c3549367dd937663ba6ed17db00",
+      "parts": []
+    },
+    {
+      "name": "tokens.txt",
+      "size": 769,
+      "sha256": "f8e042a0c9130532b22d03ec7cae2f75a23fbec70c450c31a8efb51787b2b8fe",
+      "parts": []
+    }
+  ]
+}
