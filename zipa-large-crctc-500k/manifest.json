@@ -1,0 +1,29 @@
+{
+  "repo": "anyspeech/zipa-large-crctc-500k",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 962,
+      "sha256": "2e1a4962eab533d37f6192f4a82fb6ca247d1564cb892df5e3512f7444d7a9ad",
+      "parts": []
+    },
+    {
+      "name": "model.int8.onnx",
+      "size": 309932532,
+      "sha256": "b1e0dd76507e8f851ad13f43f77d1f745f876b6e33c1527f2e2fed9de1f20704",
+      "parts": [
+        "model.int8.onnx.part000",
+        "model.int8.onnx.part001",
+        "model.int8.onnx.part002",
+        "model.int8.onnx.part003"
+      ]
+    },
+    {
+      "name": "tokens.txt",
+      "size": 769,
+      "sha256": "f8e042a0c9130532b22d03ec7cae2f75a23fbec70c450c31a8efb51787b2b8fe",
+      "parts": []
+    }
+  ]
+}
