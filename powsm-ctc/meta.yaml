@@ -1,0 +1,7 @@
+espnet: '202604'
+files:
+  s2t_model_file: exp/s2t_train_conv2d_size768_e9_d9_mel80_raw_bpe40000/valid.total_count.ave_5best.till70epoch.pth
+python: 3.12.8
+torch: 2.9.1+cu128
+yaml_files:
+  s2t_train_config: exp/s2t_train_conv2d_size768_e9_d9_mel80_raw_bpe40000/config.yaml
