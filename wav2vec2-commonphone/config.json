@@ -1,0 +1,7 @@
+{
+  "architectures": [
+    "Wav2Vec2"
+  ],
+  "torch_dtype": "float32",
+  "transformers_version": "4.33.2"
+}

@@ -1,0 +1,38 @@
+{
+  "repo": "pklumpp/Wav2Vec2_CommonPhone",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 3021,
+      "sha256": "6487ca29ef115d3360df7beea74abd6d6aefb7cc90654c6e598105f1a0d3733f",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 108,
+      "sha256": "a5b573282969e5747fd754d28f1196e8b19185e3228456f06aa2c41fd5ebdc07",
+      "parts": []
+    },
+    {
+      "name": "model.safetensors",
+      "size": 1262225208,
+      "sha256": "6242387e9e910e094f8b7c3577bda857834593ae0519cab76ee414f8030fc799",
+      "parts": [
+        "model.safetensors.part000",
+        "model.safetensors.part001",
+        "model.safetensors.part002",
+        "model.safetensors.part003",
+        "model.safetensors.part004",
+        "model.safetensors.part005",
+        "model.safetensors.part006",
+        "model.safetensors.part007",
+        "model.safetensors.part008",
+        "model.safetensors.part009",
+        "model.safetensors.part010",
+        "model.safetensors.part011",
+        "model.safetensors.part012"
+      ]
+    }
+  ]
+}
