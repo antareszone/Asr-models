@@ -1,0 +1,62 @@
+{
+  "repo": "MahmoudAshraf/mms-300m-1130-forced-aligner",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 2690,
+      "sha256": "e1ecaf916f9be25bdb2bb012699a5f2d37d1f1f4f5a0ec7e4ad4a311b59ce97f",
+      "parts": []
+    },
+    {
+      "name": "config.json",
+      "size": 2076,
+      "sha256": "2af7f73073d212b0ef91d3c73839355ca504c24a6b361c58a9e4e64210376ba9",
+      "parts": []
+    },
+    {
+      "name": "model.safetensors",
+      "size": 1261930388,
+      "sha256": "9aa5229a1af4d7714285cfa14bcaab6af2a39a9e810b475722b24975d5cb1dab",
+      "parts": [
+        "model.safetensors.part000",
+        "model.safetensors.part001",
+        "model.safetensors.part002",
+        "model.safetensors.part003",
+        "model.safetensors.part004",
+        "model.safetensors.part005",
+        "model.safetensors.part006",
+        "model.safetensors.part007",
+        "model.safetensors.part008",
+        "model.safetensors.part009",
+        "model.safetensors.part010",
+        "model.safetensors.part011",
+        "model.safetensors.part012"
+      ]
+    },
+    {
+      "name": "preprocessor_config.json",
+      "size": 211,
+      "sha256": "6334d6e0c5f2084c9a99b85ddff243cbc79dbaa4aa790bcddf8c41c496fab6fb",
+      "parts": []
+    },
+    {
+      "name": "special_tokens_map.json",
+      "size": 74,
+      "sha256": "5e4d1f5e759d74cb1c2fe1d165cfc62b5237aa904de759380cd6f43042eec723",
+      "parts": []
+    },
+    {
+      "name": "tokenizer_config.json",
+      "size": 1047,
+      "sha256": "e0fe11ce3a3231f3147b4539a93b30a9aefaca0c2717fbd35881695610417497",
+      "parts": []
+    },
+    {
+      "name": "vocab.json",
+      "size": 286,
+      "sha256": "6b6f1632d08b489faf2c954eb70e71f39d0861053feb9ae40da59cfa8d0ef5bb",
+      "parts": []
+    }
+  ]
+}

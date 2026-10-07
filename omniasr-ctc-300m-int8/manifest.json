@@ -1,0 +1,35 @@
+{
+  "repo": "csukuangfj/sherpa-onnx-omnilingual-asr-1600-languages-300M-ctc-int8-2025-11-12",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "LICENSE",
+      "size": 581,
+      "sha256": "a70a523bafbb595c2844104feb313d204904dac91c3d186c05f22a10a71c7a94",
+      "parts": []
+    },
+    {
+      "name": "README.md",
+      "size": 10895,
+      "sha256": "7d6df9f793173c8dab19932937e4c038f0e73b9eb2af831eea6b67fcb4b5af11",
+      "parts": []
+    },
+    {
+      "name": "model.int8.onnx",
+      "size": 365352120,
+      "sha256": "e7c4e54ee4c4c47829cc6667d5d00ed8ea7bef1dcfeef0fce766f77752a2726c",
+      "parts": [
+        "model.int8.onnx.part000",
+        "model.int8.onnx.part001",
+        "model.int8.onnx.part002",
+        "model.int8.onnx.part003"
+      ]
+    },
+    {
+      "name": "tokens.txt",
+      "size": 86423,
+      "sha256": "a7a044c52cb29cbe8b0dc1953e92cefd4ca16b0ed968177b6beab21f9a7d0b31",
+      "parts": []
+    }
+  ]
+}
