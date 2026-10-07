@@ -1,0 +1,7 @@
+espnet: '202412'
+files:
+  s2t_model_file: exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth
+python: 3.11.9
+torch: 2.4.0+cu118
+yaml_files:
+  s2t_train_config: exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/config.yaml

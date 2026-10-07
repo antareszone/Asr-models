@@ -1,0 +1,57 @@
+{
+  "repo": "espnet/powsm",
+  "chunk_size": 99614720,
+  "files": [
+    {
+      "name": "README.md",
+      "size": 4435,
+      "sha256": "a9325beefe712533ef83e275adaa405078ea355787c7d9d2b2cd0b450686f7a0",
+      "parts": []
+    },
+    {
+      "name": "meta.yaml",
+      "size": 341,
+      "sha256": "d63506464349e98a2e7629aebbbf3aed79372024e2edeebe2b72e74253863bda",
+      "parts": []
+    },
+    {
+      "name": "data/token_list/bpe_unigram40000/bpe.model",
+      "size": 967858,
+      "sha256": "9b9a8b76353430d41a1b8f7f2ec0f40fa8c4e75567eaef6887bdbb893c55236a",
+      "parts": []
+    },
+    {
+      "name": "exp/s2t_stats_raw_bpe40000/train/feats_stats.npz",
+      "size": 1402,
+      "sha256": "f3ca2ef68be502a75a646c8da36847375964a0d6499fd9ee2d7d620a0f31d746",
+      "parts": []
+    },
+    {
+      "name": "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/config.yaml",
+      "size": 400702,
+      "sha256": "f29993179ff12d9f082052c8e1ccbe192c26f6bfe116cc53d6422c5c8012787b",
+      "parts": []
+    },
+    {
+      "name": "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth",
+      "size": 1374692510,
+      "sha256": "a91a03bcfd59a956319939891c4098e8f7e8c9ea568d7ec2bcbc1131b32d1197",
+      "parts": [
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part000",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part001",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part002",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part003",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part004",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part005",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part006",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part007",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part008",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part009",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part010",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part011",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part012",
+        "exp/s2t_train_s2t_ebf_conv2d_size768_e9_d9_piecewise_lr5e-4_warmup60k_flashattn_raw_bpe40000/valid.acc.ave_5best.till45epoch.pth.part013"
+      ]
+    }
+  ]
+}
