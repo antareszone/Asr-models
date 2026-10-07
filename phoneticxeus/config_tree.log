@@ -1,0 +1,152 @@
+CONFIG
+├── data
+│   └── _target_: src.data.kaldi_pretraining_dataset.build_kaldi_datamodule     
+│       train_split: train                                                      
+│       dev_splits:                                                             
+│       - dev_1k                                                                
+│       - dev_gmuaccent                                                         
+│       - dev_buckeye                                                           
+│       - dev_epadb                                                             
+│       - dev_speechoceanotth                                                   
+│       - dev_l2arctic                                                          
+│       dataset_config_path: configs/data/ipapack_index.yaml                    
+│       vocab_file: src/model/xeusphoneme/resources/ipa_vocab.json              
+│       batch_size: 12                                                          
+│       num_workers: 6                                                          
+│                                                                               
+├── model
+│   └── _target_: src.recipe.phone_recognition.model_module.PhoneRecognitionMode
+│       optimizer:                                                              
+│         _target_: torch.optim.Adam                                            
+│         _partial_: true                                                       
+│         lr: 3.0e-05                                                           
+│         weight_decay: 0.0                                                     
+│       scheduler:                                                              
+│         _target_: src.recipe.phone_recognition.model_module.get_w2v2ph_schedul
+│         _partial_: true                                                       
+│         num_training_steps: 40000                                             
+│         encoder_unfreeze_step: 3000                                           
+│         warmup_fraction: 0.05                                                 
+│         constant_fraction: 0.75                                               
+│       net:                                                                    
+│         _target_: src.model.xeusphoneme.builders.build_xeus_pr_from_hf        
+│         work_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/cache/xeus    
+│         hf_repo: espnet/xeus                                                  
+│         force: false                                                          
+│         config_file: null                                                     
+│         checkpoint: null                                                      
+│         vocab_file: src/model/xeusphoneme/resources/ipa_vocab.json            
+│         load_ckpt: true                                                       
+│         interctc_weight: 0.3                                                  
+│         interctc_layer_idx:                                                   
+│         - 4                                                                   
+│         - 8                                                                   
+│         - 12                                                                  
+│         interctc_use_conditioning: true                                       
+│         ctc_weight: 1.0                                                       
+│         decoder_config: null                                                  
+│         ctc_config:                                                           
+│           ctc_type: builtin                                                   
+│       dev_splits:                                                             
+│       - dev_1k                                                                
+│       - dev_gmuaccent                                                         
+│       - dev_buckeye                                                           
+│       - dev_epadb                                                             
+│       - dev_speechoceanotth                                                   
+│       - dev_l2arctic                                                          
+│                                                                               
+├── callbacks
+│   └── model_checkpoint:                                                       
+│         _target_: lightning.pytorch.callbacks.ModelCheckpoint                 
+│         dirpath: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/runs/ipaaccent_
+│         filename: checkpoint-{step}                                           
+│         monitor: null                                                         
+│         verbose: false                                                        
+│         save_last: true                                                       
+│         save_top_k: -1                                                        
+│         mode: min                                                             
+│         auto_insert_metric_name: false                                        
+│         save_weights_only: false                                              
+│         every_n_train_steps: 2000                                             
+│         train_time_interval: null                                             
+│         every_n_epochs: null                                                  
+│         save_on_train_epoch_end: null                                         
+│       learning_rate_monitor:                                                  
+│         _target_: lightning.pytorch.callbacks.LearningRateMonitor             
+│         logging_interval: step                                                
+│       early_stopping: null                                                    
+│       model_summary:                                                          
+│         _target_: lightning.pytorch.callbacks.RichModelSummary                
+│         max_depth: 1                                                          
+│       rich_progress_bar:                                                      
+│         _target_: lightning.pytorch.callbacks.RichProgressBar                 
+│                                                                               
+├── logger
+│   └── wandb:                                                                  
+│         _target_: lightning.pytorch.loggers.wandb.WandbLogger                 
+│         save_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/runs/ipaaccent
+│         offline: false                                                        
+│         id: null                                                              
+│         anonymous: null                                                       
+│         project: SSLPR                                                        
+│         log_model: false                                                      
+│         prefix: ''                                                            
+│         group: ipaaccent_ctc                                                  
+│         tags:                                                                 
+│         - ipapack_accent                                                      
+│         - ctc                                                                 
+│         - phone_recognition                                                   
+│         job_type: ''                                                          
+│         name: xeus_multiaccent.selfctc_l4_8_12.bs256.lr3em5.sched_p05warm_p75c
+│                                                                               
+├── trainer
+│   └── _target_: lightning.pytorch.trainer.Trainer                             
+│       default_root_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/runs/ipa
+│       min_epochs: 0                                                           
+│       max_epochs: -1                                                          
+│       accelerator: gpu                                                        
+│       devices: auto                                                           
+│       check_val_every_n_epoch: null                                           
+│       deterministic: false                                                    
+│       num_nodes: 1                                                            
+│       strategy: ddp_find_unused_parameters_true                               
+│       precision: bf16                                                         
+│       sync_batchnorm: true                                                    
+│       max_steps: 40000                                                        
+│       gradient_clip_val: 1.0                                                  
+│       accumulate_grad_batches: 5                                              
+│       val_check_interval: 2000                                                
+│       log_every_n_steps: 200                                                  
+│                                                                               
+├── paths
+│   └── root_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench                     
+│       exp_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp                  
+│       download_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/download    
+│       cache_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/cache          
+│       output_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench/exp/runs/ipaaccent
+│       work_dir: /mnt/home/chinjoul-andr-daf644/PhoneBench                     
+│                                                                               
+├── extras
+│   └── ignore_warnings: false                                                  
+│       enforce_tags: true                                                      
+│       print_config: true                                                      
+│                                                                               
+├── task_name
+│   └── ipaaccent_ctc                                                           
+├── tags
+│   └── ['ipapack_accent', 'ctc', 'phone_recognition']                          
+├── train
+│   └── True                                                                    
+├── test
+│   └── True                                                                    
+├── predict
+│   └── False                                                                   
+├── pred_file
+│   └── None                                                                    
+├── run_folder
+│   └── xeus_multiaccent.selfctc_l4_8_12.bs256.lr3em5.sched_p05warm_p75const_3ku
+├── ckpt_path
+│   └── None                                                                    
+└── seed
+    └── 42                                                                      
+
